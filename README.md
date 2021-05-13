@@ -49,12 +49,15 @@ The sensor interface is in charge of taking the sensory input and update the inf
 ## Publications
 
 Besides the publications of the commands and paths according to the move_base structure. The planner publishes some RViz markers:
-	- */sfm/markers/goal* [visualization_msgs/Marker]. Arrow with the local goal of the controller.
-	- */sfm/markers/robot_forces* [visualization_msgs/MarkerArray]. Vectors with the different forces of the SFM.
+
+- */sfm/markers/goal* [visualization_msgs/Marker]. Arrow with the local goal of the controller.
+
+- */sfm/markers/robot_forces* [visualization_msgs/MarkerArray]. Vectors with the different forces of the SFM.
 	
 ## Dependencies
 
-	- dynamic_obstacle_detector (https://github.com/robotics-upo/dynamic_obstacle_detector).
-	- lightsfm (https://github.com/robotics-upo/lightsfm)
+- dynamic_obstacle_detector (https://github.com/robotics-upo/dynamic_obstacle_detector).
+
+- lightsfm (https://github.com/robotics-upo/lightsfm)
 
 
