@@ -5,6 +5,8 @@ A set of attractive and repulsive forces determine the behavior of the planner.
 This local planner has been programmed as a BaseLocalPlanner plugin. So it can be used in the ROS move_base architecture. 
 Although It receives a local costmap from move_base, the costmap is not used and a dedicated collision detector is employed instead. This detector uses laserscan input to check the possible collisions. 
 
+![](https://github.com/robotics-upo/sfm_local_controller/blob/master/SFM.jpg)
+
 ## Parameters
 
 * **Robot Configuration Parameters**
