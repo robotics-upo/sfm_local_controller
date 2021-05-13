@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>sfm_local_controller</name>
+  <version>0.0.0</version>
+  <description>The sfm_local_controller package</description>
+
+
+  <maintainer email="noeperez@upo.es">Noé Pérez</maintainer>
+
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>lightsfm</build_depend>
+  <build_depend>nav_core</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>pluginlib</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>tf2</build_depend>
+  <build_depend>tf2_geometry_msgs</build_depend>
+  <build_depend>tf2_ros</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+  <build_depend>dynamic_reconfigure</build_depend>
+  <build_depend>dynamic_obstacle_detector</build_depend>
+  <build_export_depend>geometry_msgs</build_export_depend>
+  <build_export_depend>lightsfm</build_export_depend>
+  <build_export_depend>nav_core</build_export_depend>
+  <build_export_depend>nav_msgs</build_export_depend>
+  <build_export_depend>pluginlib</build_export_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>sensor_msgs</build_export_depend>
+  <build_export_depend>tf2</build_export_depend>
+  <build_export_depend>tf2_geometry_msgs</build_export_depend>
+  <build_export_depend>tf2_ros</build_export_depend>
+  <build_export_depend>visualization_msgs</build_export_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>lightsfm</exec_depend>
+  <exec_depend>nav_core</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>pluginlib</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>tf2</exec_depend>
+  <exec_depend>tf2_geometry_msgs</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+  <exec_depend>dynamic_reconfigure</exec_depend>
+  <exec_depend>dynamic_obstacle_detector</exec_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <nav_core plugin="${prefix}/sfm_plugin.xml" />
+  </export>
+</package>
